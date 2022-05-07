@@ -5,9 +5,57 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
-  <title>SCSS BEM STARTER</title>
+  <title>scoot website</title>
 </head>
 <body>
+  <!------------------------ HEADER --------------------------------->  
+  <header class="header header--open">
+    <div class="container header--container">
+      <button class="header__hamburger">
+      </button>
 
+      <div class="header__left">
+          <a href="index.html" class="header__logo-link">
+            <picture>
+              <source media="(max-width:375px)" srcset="./images/scoot-mobile.svg 1x,./images/scoot-mobile@2x.svg 2x">
+
+              <img class="header__logo-img" src="./images/scoot-icon.svg" alt="icon" srcset="./images/scoot-icon.svg 1x,./images/scoot-icon@2x.svg 2x">
+            </picture>
+          </a>
+
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#" class="header__link">
+                About
+              </a>
+            </li>
+            
+            <li class="header__item">
+              <a href="#" class="header__link">
+                Location
+              </a>
+            </li>
+  
+            <li class="header__item">
+              <a href="#" class="header__link">
+                Careers
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <button class="button">
+        Get Scootin
+      </button>
+
+    </div>
+  </header>
+
+  <script src="./js/script.js"></script>
 </body>
 </html>
+
+
+
