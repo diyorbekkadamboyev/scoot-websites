@@ -92,7 +92,7 @@
         position: relative;
 
         .container {
-            max-width: 540px;
+            max-width: 755px;
           }
 
           &__hamburger {
@@ -129,9 +129,10 @@
         top: 100%;
         background-image: url("../../images/menu-back-img.png");
         background-repeat: no-repeat;
-        background-position: right 0px top 0;
+        background-position: top 0 left 0;
         height: 100vh;
         width: 220px;
+        
     }
 
     .header--open .header__list {
@@ -163,13 +164,14 @@
 
     }
 
+    .header--open .header__mobile-bg {
+        z-index: -90;
+        display: block;
+    }
+
     button {
         display: none;
     }
-
-    
-
-    
   }
   
   @media only screen and (max-width: 375px){
